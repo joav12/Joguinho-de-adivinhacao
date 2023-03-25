@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="joguinho.js" defer></script>
+    <title>joguinho de adivinhação</title>
+</head>
+<body>
+    <div class="meinho">
+        <div>
+            <div>
+                <h1>BEM VINDO AO JOGUNHO DE ADIVINHAÇÃO!!</h1> 
+            </div>
+        
+            <div>
+                <h3>Você tem que adivinhar o numero em que eu<span>A MAQUINA</span>estou pensando</h3>
+    
+                <p>ele sempre será um numero entre 0 e 10, então tente adivinhar camarada!</p>
+                
+                <div class="inputEbutao">
+                    <span id="botaoCo"><input type="number" id="adivinha"></span>
+                    <button onclick="jogo.verificar()">Verificar se você acertou!</button>
+                </div>
+    
+                <p id="resul"></p>
+                <p id="resul2"></p>
+    
+                <span id="botaoFi"></span>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
