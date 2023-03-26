@@ -3,8 +3,10 @@
 }
 
 body{
-    background: linear-gradient(90deg, rgb(0, 2, 97)0%, rgb(72, 11, 184)50%, rgb(99, 0, 212)100%);
+    background: linear-gradient(180deg, rgb(202, 0, 0)0%, rgb(146, 18, 1)50%, rgb(95, 22, 0)100%);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .meinho{
