@@ -6,7 +6,6 @@ body{
     background: linear-gradient(180deg, rgb(202, 0, 0)0%, rgb(146, 18, 1)50%, rgb(95, 22, 0)100%);
     color: white;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .meinho{
