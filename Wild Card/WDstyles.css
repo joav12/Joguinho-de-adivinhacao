@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(0, 2, 97)0%, rgb(72, 11, 184)50%, rgb(99, 0, 212)100%);
+    color: white;
+}
+
+.meinho{
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: rgb(2, 18, 161);
+    border: 5px solid rgb(0, 134, 243);
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 6px 7px 20px rgba(0, 0, 0, 0.582);
+}
+
+span{
+    margin: 10px;
+    color: rgb(235, 2, 2);
+}
+
+.inputEbutao{
+    display: flex;
+    justify-content: center;
+}
+

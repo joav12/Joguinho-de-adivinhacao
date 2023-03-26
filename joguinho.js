@@ -16,6 +16,7 @@ class JAD{
         var resul = document.getElementById('resul')
         var resul2 = document.getElementById('resul2')
         var botaoFi = document.getElementById('botaoFi')
+        var botaoWC = document.getElementById('botaoWC')
         var botaoCo = document.getElementById('botaoCo')
         
         if(adivinha == this.numeroSecreto){
@@ -43,6 +44,17 @@ class JAD{
             this.tentativas --
 
             resul.innerHTML = `Calma lá amigo! Esse numero é menor comparado com o qual eu pensei e infelizmente Você está equivocado nessa sua tentativa, ainda lhe sobra ${this.tentativas} tentativas restantes` 
+        }
+
+        if(adivinha == this.numeroSecreto && this.numeroSecreto == 7){
+            resul.innerHTML = `Ora ora parece que temos um cheroque rromes aqui não é mesmo, Eu estáva pensando exatamente no numero ${this.numeroSecreto} parabéns`
+
+            resul2.innerHTML = `Aperte o botão abaixo para jogar de novo!!`
+
+            botaoCo.inert = `cancela`
+
+            botaoFi.innerHTML = '<button onclick="window.location.reload()">jogar novamente</button>'
+            botaoWC.innerHTML = `<button onclick="window.location.href = './Wild Card/WC.html'">Wild card</button>`
         }
     }
 }
