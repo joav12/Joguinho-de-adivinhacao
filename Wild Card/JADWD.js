@@ -37,7 +37,6 @@ function ADD(){
     constructor(){
         this.numeroSecreto = ADD()
         this.tentativas = 5
-        console.log(this.numeroSecreto)
     }
 
 
