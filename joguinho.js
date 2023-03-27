@@ -55,6 +55,14 @@ class JAD{
 
             botaoFi.innerHTML = '<button onclick="window.location.reload()">jogar novamente</button>'
             botaoWC.innerHTML = `<button onclick="window.location.href = './Wild Card/WC.html'">Wild card</button>`
+        } else if(adivinha == 69 && this.tentativas <= 1){
+            resul.innerHTML = `Você errou.....`
+
+            resul2.innerHTML = `Sério cara? 69? Safado`
+
+            botaoCo.inert = `cancela`
+
+            botaoFi.innerHTML = '<button onclick="window.location.reload()">Tente novamente</button>'
         }
     }
 }

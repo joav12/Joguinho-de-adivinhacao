@@ -1,5 +1,5 @@
 function ADD(){
-    var NN = Math.floor(Math.random() * 50) + 1 
+    var NN = Math.floor(Math.random() * 100) + 1 
     //var NN = document.getElementById('NN').value
     //var NNcan = document.getElementById('NNcan')
     //var change = document.getElementById('change')
@@ -9,8 +9,8 @@ function ADD(){
 
     var troca = document.getElementById('troca')
 
-        if(NN <= 19){
-            alert("EU DISSE MAIOR QUE 20")
+        if(NN <= 29){
+            ADD()
     
         }else if(numeroAleatorio % 2 === 0){
             
