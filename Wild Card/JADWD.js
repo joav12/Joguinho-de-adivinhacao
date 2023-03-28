@@ -1,5 +1,5 @@
 function ADD(){
-    var NN = Math.floor(Math.random() * 100) + 1 
+    var NN = Math.floor(Math.random() * (100 - 30)) + 30 
     //var NN = document.getElementById('NN').value
     //var NNcan = document.getElementById('NNcan')
     //var change = document.getElementById('change')
@@ -8,11 +8,8 @@ function ADD(){
     const numeroAleatorio = Math.floor(Math.random() * parseInt(NN)) + 1
 
     var troca = document.getElementById('troca')
-
-        if(NN <= 29){
-            ADD()
     
-        }else if(numeroAleatorio % 2 === 0){
+        if(numeroAleatorio % 2 === 0){
             
             
             troca.innerHTML = `Eu estou pensando em um numero <span>par</span> entre 1 e ${NN}`
